@@ -13,9 +13,9 @@ A simple CLI tool which will continuously check if the [RTX 4090 Founder's Editi
 5. Configure notifications by creating a `config.yaml` file in the same directory as `main.py` and populating it with your Twilio information:
     ```yaml
     twilio:
-    account_sid: 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-    auth_token: '31XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-    message_sender: '+1888XXXXXXX'
-    message_receiver: '+1XXXXXXXXXX'
+      account_sid: 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+      auth_token: '31XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+      message_sender: '+1888XXXXXXX'
+      message_receiver: '+1XXXXXXXXXX'
     ```
 6. Run the tool and wait a few days for BestBuy to restock the RTX 4090: `python main.py`
